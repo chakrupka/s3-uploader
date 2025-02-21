@@ -1,5 +1,5 @@
-const plugins = {
-  autoprefixer: {},
+module.exports = {
+  plugins: {
+    autoprefixer: {},
+  },
 };
-
-export default plugins;
