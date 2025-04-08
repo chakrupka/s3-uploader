@@ -1,0 +1,51 @@
+body,
+html,
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  font-family: Roboto, sans-serif;
+}
+
+.upload-screen {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  img {
+    max-height: 75%;
+    max-width: 75%;
+  }
+
+  input {
+    display: none;
+  }
+
+  label,
+  button {
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(164, 219, 221);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+  }
+
+  label:hover,
+  button:hover {
+    transform: scale(1.05);
+  }
+
+  button.inactive {
+    visibility: hidden;
+  }
+}
